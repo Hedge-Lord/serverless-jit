@@ -1,0 +1,3 @@
+[submodule "jdk25u"]
+	path = jdk25u
+	url = https://github.com/Hedge-Lord/jdk25u/commit/1cc47f28224661bbba728b92dddc1e478d36aa4d
