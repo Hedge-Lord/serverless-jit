@@ -90,7 +90,12 @@ run_phase() {
   shift 3
   local tmp="${TMPDIR}/${BENCH}_${wf}_${phase}_r${rep}.out"
   local flags=( ${BASE_FLAGS} ${EXTRA_FLAGS} "$@" )
-  "${JAVA}" "${flags[@]}" -jar "${JAR}" "${BENCH}" -s "${SIZE}" -n "${INVOCATIONS}" > "${tmp}" 2>&1
+  # Run DaCapo; if it fails, surface the log and exit
+  if ! "${JAVA}" "${flags[@]}" -jar "${JAR}" "${BENCH}" -s "${SIZE}" -n "${INVOCATIONS}" > "${tmp}" 2>&1; then
+    echo "DaCapo failed (workflow=${wf}, phase=${phase}, repeat=${rep}). Showing log:" >&2
+    sed -n '1,200p' "${tmp}" >&2 || true
+    exit 1
+  fi
   parse_and_emit "${wf}" "${phase}" "${rep}" "${tmp}"
 }
 
