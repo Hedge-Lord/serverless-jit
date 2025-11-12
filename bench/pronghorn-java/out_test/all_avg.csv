@@ -1,0 +1,11 @@
+bench,invocation,baseline_mean_us,aot_mean_us
+word-count,1,13540.0,9433.0
+word-count,2,3402.0,2792.0
+word-count,3,1857.0,1852.0
+word-count,4,1631.0,1674.0
+word-count,5,1538.0,1670.0
+word-count,6,1657.0,1688.0
+word-count,7,1685.0,1496.0
+word-count,8,1309.0,1382.0
+word-count,9,1247.0,1494.0
+word-count,10,1312.0,1358.0

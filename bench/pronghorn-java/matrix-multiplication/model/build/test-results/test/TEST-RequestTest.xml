@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RequestTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-10-31T05:42:59.842Z" hostname="Georges-MBP-2.login.dynalink" time="0.001">
+  <properties/>
+  <testcase name="testEmptyRequestParameterGetSet" classname="RequestTest" time="0.0"/>
+  <testcase name="testGetPath" classname="RequestTest" time="0.0"/>
+  <testcase name="testRequestRawGetSet" classname="RequestTest" time="0.0"/>
+  <testcase name="testMultipleRequestParametersGetSet" classname="RequestTest" time="0.0"/>
+  <testcase name="testSingleRequestParameterGetSet" classname="RequestTest" time="0.0"/>
+  <testcase name="testGetPathWithNullPath" classname="RequestTest" time="0.0"/>
+  <testcase name="testParseParametersWithEvenParameters" classname="RequestTest" time="0.0"/>
+  <testcase name="testNullRequestParameterGetSet" classname="RequestTest" time="0.0"/>
+  <testcase name="testParseParametersWithOddParameters" classname="RequestTest" time="0.0"/>
+  <testcase name="testParseParametersWithoutAnyParameters" classname="RequestTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

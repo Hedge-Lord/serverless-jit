@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ResponseTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-10-31T05:42:58.243Z" hostname="Georges-MBP-2.login.dynalink" time="0.001">
+  <properties/>
+  <testcase name="testResponseHeaderSetGetValue" classname="ResponseTest" time="0.001"/>
+  <testcase name="testResponseHeaderGetValueKeyMissIsNull" classname="ResponseTest" time="0.0"/>
+  <testcase name="testResponseHeaderSetGetClearGetValue" classname="ResponseTest" time="0.0"/>
+  <testcase name="testResponseGetSetContentType" classname="ResponseTest" time="0.0"/>
+  <testcase name="testResponseStatusCodeDefaultValue" classname="ResponseTest" time="0.0"/>
+  <testcase name="testResponseStatusCodeSetGetValue" classname="ResponseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
