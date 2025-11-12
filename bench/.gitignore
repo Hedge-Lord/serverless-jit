@@ -2,4 +2,4 @@ dacapo/out
 dacapo/scratch
 dacapo/dacapo*
 *.jar
-
+test/wordcount/out
